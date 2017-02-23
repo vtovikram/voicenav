@@ -10,9 +10,6 @@ const mapStateToProps = (state, ownProps) => {
 
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
-    onClick: () => {
-      dispatch({ type: HELLO_WORLD })
-    }
   }
 }
 
